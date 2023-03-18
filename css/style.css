@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Orbitron;
+}
+.container{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    gap:2em;
+    padding-top:2em;
+    background-color: #f1f1f1;;
+    height:100vh;
+}
+.container h1{
+    color:#175cff;
+    background-color: aliceblue;
+}
+.timer{
+    display: flex;
+    gap:22px;
+    font-size: 55px;
+    font-weight:bold;
+    color:#333;
+}
+.time{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-right: 10px;
+}
